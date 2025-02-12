@@ -32,11 +32,12 @@ public class StudentGradeTracker
             grades.add(grade);
         }
 
-        // Display results
+
         if (grades.isEmpty()) 
         {
             System.out.println("No grades entered.");
-        } else 
+        } 
+        else 
         {
             System.out.println("\n--- Grade Statistics ---");
             System.out.printf("Average Grade: %.2f\n", calculateAverage(grades));
